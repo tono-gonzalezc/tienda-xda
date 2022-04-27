@@ -1,0 +1,62 @@
+body{
+  padding:0;
+  margin:0;
+  border:0;
+}
+
+.cajanewsletter{
+  padding: 10px;
+}
+
+
+.divrotar{
+  background-color: white;
+  padding: 0;
+  display: flex;
+  align-items: center;
+ p{
+    padding:0;
+    margin:0;
+    transform: rotate(90deg);
+    font-size:x-large;
+    font-weight: bolder;
+  }
+}
+
+
+.contenedor-descripcion{
+  padding: 10px 30px 10px 30px;
+  
+  @media (min-width: 768px) {
+    h3{
+      padding-right: 200px;
+    }
+  }
+}
+
+.imagen{
+  width: fit-content;
+}
+
+
+
+@keyframes mover {
+  0% {margin-left: 0}
+  100% {margin-left: 1024px}
+}
+
+.lentessvg{
+  width: 50px;
+  animation:mover 10s ease-in-out infinite;
+}
+
+.resaltar{
+  fill: #729e2e;
+  stroke: blue;
+  transition: fill 2s;
+}
+
+.resaltar:hover{
+  box-shadow: 10px 10px 14px 2px #00000078;
+  fill: #e2a30b;
+}

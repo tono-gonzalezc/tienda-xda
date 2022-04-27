@@ -1,0 +1,17 @@
+body{
+    font-family: $fuente-principal;
+}
+
+h1{
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+h3{
+    font-size: medium;
+    font-family: $fuente-secundaria;
+    color: $color-secundario;
+}
+.menu{
+    font-weight: bolder;
+}
